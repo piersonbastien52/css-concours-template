@@ -19,8 +19,10 @@ body {
     background-color: #1b1e42;
     background-size: cover;
     color: #d2a52a;
+    text-align: center;
     font-family: "arial", cursive;
     line-height: 1.5;
+    font-size: 1.2rem;
     background-image: 
     linear-gradient(to bottom, #262756 0%, transparent 120px),
     radial-gradient(at 50% 5%, #1085f9d9 150px, transparent 55%);
