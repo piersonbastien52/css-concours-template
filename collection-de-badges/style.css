@@ -14,20 +14,32 @@
 
 body {
     margin: 0;
-    background-color: #f3f5f9;
-    color: #20263a;
-    font-family: "Times New Roman", serif;
+    background-color:#FFF5EE;
+    background-color: #0b0f19;
+    background-color: #1b1e42;
+    background-size: cover;
+    color: #d2a52a;
+    font-family: "arial", cursive;
     line-height: 1.5;
+    background-image: 
+    linear-gradient(to bottom, #262756 0%, transparent 120px),
+    radial-gradient(at 50% 5%, #1085f9d9 150px, transparent 55%);
+
 }
 
 header {
-    padding: 48px 20px;
-    background-color: #2e295b;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    padding: 10px 20px;
     color: #ffffff;
     text-align: center;
+    font-family: "shell roundhand", cursive;
+    font-size: 1.5rem; 
 }
 
 main {
+    min-height: 100vh;
     width: 90%;
     max-width: 1000px;
     margin: 40px auto;
@@ -53,18 +65,26 @@ article {
 
 article.bronze {
     border-color: var(--bronze);
+    text-align: center;
+    border-width: 0.3rem; 
 }
 
 article.argent {
     border-color: var(--argent);
+    text-align: center; 
+    border-width: 0.3rem; 
 }
 
 article.or {
     border-color: var(--or);
+    text-align: center; 
+    border-width: 0.3rem; 
 }
 
 article.diamant {
     border-color: var(--diamant);
+    text-align: center;
+    border-width: 0.3rem; 
 }
 
 article.bloque {
